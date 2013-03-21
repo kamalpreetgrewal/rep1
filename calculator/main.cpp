@@ -26,21 +26,19 @@ int main()
                    case 1:
                         cout<<"Please enter the two numbers you want to divide, divisor first!: ";
                         cin>>num1>> num2;
-                        cin.ignore();
 
 cout<<" "<<num1<<"/"<<num2<<"="<<divide(num1,num2)<<endl;
                         break;
                               case 2:
                                    cout<<"Please enter the two numbers you want to add: ";
                                    cin>>num1>> num2;
-                                   cin.ignore();
 
 cout<<" "<<num1<<"+"<<num2<<"="<<add(num1,num2)<<endl;
                                     break;
                                            case 3:
                                                  cout<<"Please enter the two numbers you want to subtract, The number you want to subtract from first!: ";
                                                  cin>>num1>> num2;
-                                                 cin.ignore();
+                                                
 
 cout<<" "<<num1<<"-"<<num2<<"="<<sub(num1,num2)<<endl;
                                                  break;
@@ -60,12 +58,11 @@ default:
 
 cout<<"Invalid Entry!, BYE!!!"<<endl;
 
-cin.ignore();
 
 break;
 
         }
-                                cin.ignore();
+                                
                                 return 0;
 }
 float mult(float num1,float num2){
